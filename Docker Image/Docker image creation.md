@@ -1,4 +1,4 @@
-                                                            **Docker Images**
+ **Docker Images**
 
 We require Docker Image to create container. There are three types to create Docker Image.
 1. From Dockerhub or any repository
