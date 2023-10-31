@@ -61,3 +61,9 @@ From Existing Container
              create   container  new image name
              new image
   ![image](https://github.com/Khushang49/Docker/assets/95266353/f4ddc0b3-4d96-448f-813f-2fee3fd18fe5)
+   Now create container with new image
+   
+   #docker run -it --name test2 testimage /bin/bash
+   ![image](https://github.com/Khushang49/Docker/assets/95266353/a33dfc70-5c61-4547-8466-240513953709)
+
+   
