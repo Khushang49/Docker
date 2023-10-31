@@ -73,6 +73,7 @@ From Existing Container
   Always use capital letter to mention parameter in Dockerfile
 
   Dockerfile parameters:
+  
   FROM == Image name or any refernce. It will be at start only.
   
   LABEL
@@ -81,12 +82,12 @@ From Existing Container
   
   CMD
   
-  EXPOSE == Tp expose any port 
+  EXPOSE == Tp expose any port as per application or as per software requiremnt.
   
   ENV
   
   ADD or COPY == To copy any files from server. In COPY you can copy any file from Server whereas ADD will also have same feature but it will also can download 
-                 from internet as well as it can extract TAR file from source machine.
+                 from internet as well as it can extract TAR file from source machine. Beacuse sometime packages are zip files hence ADD will be useful.
   
   ENTRYPOINT
   
