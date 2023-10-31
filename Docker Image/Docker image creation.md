@@ -1,4 +1,4 @@
-Docker Images
+**Docker Images**
 
 We require Docker Image to create container. There are three types to create Docker Image.
 1. From Dockerhub or any repository
@@ -68,4 +68,8 @@ From Existing Container
    ![image](https://github.com/Khushang49/Docker/assets/95266353/a33dfc70-5c61-4547-8466-240513953709)
 
  From Dockerfile
+
+ For Dockerfile you need to create one file as Dockerfile. In this file you need to mention some parameteres. Then create image with docker build command.
+
+ 
  
