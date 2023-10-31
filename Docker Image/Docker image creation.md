@@ -69,7 +69,34 @@ From Existing Container
 
  From Dockerfile
 
- For Dockerfile you need to create one file as Dockerfile. In this file you need to mention some parameteres. Then create image with docker build command.
+  For Dockerfile you need to create one file as Dockerfile. In this file you need to mention some parameteres. Then create image with docker build command. 
+  Always use capital letter to mention parameter in Dockerfile
 
- 
+  Dockerfile parameters:
+  FROM == Image name or any refernce. It will be at start only.
+  
+  LABEL
+  
+  RUN == To run any command, To create a layer in Image
+  
+  CMD
+  
+  EXPOSE == Tp expose any port 
+  
+  ENV
+  
+  ADD or COPY == To copy any files from server. In COPY you can copy any file from Server whereas ADD will also have same feature but it will also can download 
+                 from internet as well as it can extract TAR file from source machine.
+  
+  ENTRYPOINT
+  
+  VOLUME
+  
+  USER
+  
+  WORKDIR
+  
+  ONBUILD
+
+  MAINTAINER == Only to reference who is managing image as TAG.
  
