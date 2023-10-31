@@ -102,4 +102,25 @@ From Existing Container
   MAINTAINER == Only to reference who is managing image as TAG.
 
   ARG == Argument.
+
+  Example:
+  
+  Create Docker FILE:
+   
+   #vi Dockerfile
+   
+   FROM httpd:latest
+   
+   COPY ./index.html /usr/local/apache2/htdocs
+  
+   #docker build –t khushang .
+  
+   T= tag
+  
+   . == current directory
+   
+   RUN THAT CONTAINER
+   
+   Docker run –p –it 80:80 –name mywebsite khushang 
+
  
