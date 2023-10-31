@@ -51,3 +51,13 @@ From Existing Container
    C == Change
    
    D == Delete
+
+   Now create image from this container using docker commit command
+
+   #docker commit   test1      testimage
+
+             |        |         |
+
+             create   container  new image name
+             new image
+  ![image](https://github.com/Khushang49/Docker/assets/95266353/f4ddc0b3-4d96-448f-813f-2fee3fd18fe5)
