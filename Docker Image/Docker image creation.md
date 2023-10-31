@@ -45,6 +45,9 @@ From Existing Container
            find    container name
            differences
    ![image](https://github.com/Khushang49/Docker/assets/95266353/529cfd15-eb1a-40d3-a53c-668875c09e10)
+   
    A == Append or Add
+   
    C == Change
+   
    D == Delete
