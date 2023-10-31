@@ -67,4 +67,5 @@ From Existing Container
    #docker run -it --name test2 testimage /bin/bash
    ![image](https://github.com/Khushang49/Docker/assets/95266353/a33dfc70-5c61-4547-8466-240513953709)
 
-   
+ From Dockerfile
+ 
