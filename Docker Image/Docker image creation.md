@@ -1,11 +1,11 @@
-**Docker Images**
+                                                            **Docker Images**
 
 We require Docker Image to create container. There are three types to create Docker Image.
 1. From Dockerhub or any repository
 2. create from existing container
 3. From Dockerfile
 
-From Dockerhub
+**From Dockerhub**
    Just pull any image or directly run container from Dockerhub.
    
    Command:
@@ -13,7 +13,7 @@ From Dockerhub
    #docker run ubuntu
    ![image](https://github.com/Khushang49/Docker/assets/95266353/3d9ab321-6005-4bd0-9e54-2d520c5b2a83)
 
-From Existing Container
+**From Existing Container**
 
    Create new container and go inside that container using -it in command.
 
@@ -67,7 +67,7 @@ From Existing Container
    #docker run -it --name test2 testimage /bin/bash
    ![image](https://github.com/Khushang49/Docker/assets/95266353/a33dfc70-5c61-4547-8466-240513953709)
 
- From Dockerfile
+ **From Dockerfile**
 
   For Dockerfile you need to create one file as Dockerfile. In this file you need to mention some parameteres. Then create image with docker build command. 
   Always use capital letter to mention parameter in Dockerfile
