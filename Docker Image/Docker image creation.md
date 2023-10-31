@@ -25,3 +25,26 @@ From Existing Container
                terminal        container
 
 ![image](https://github.com/Khushang49/Docker/assets/95266353/e1d4c380-b25f-4efe-a368-738b2591109f)
+
+   Now create file in that container.
+
+   #cd /tmp
+   
+   #touch file1 file2 file3
+
+   ![image](https://github.com/Khushang49/Docker/assets/95266353/fc5765d1-96db-48cd-a2e2-606c09a121dc)
+
+   Then exit from container.
+
+   Then check how many files added,appended,changed or deleted using docker diff command.
+
+   #docker diff test1
+
+            |     |
+
+           find    container name
+           differences
+   ![image](https://github.com/Khushang49/Docker/assets/95266353/529cfd15-eb1a-40d3-a53c-668875c09e10)
+   A == Append or Add
+   C == Change
+   D == Delete
