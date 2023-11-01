@@ -99,6 +99,18 @@ To Run a container
 
 #docker run ubuntu(iamge name)
 
+To run container in background
+
+#docker run -d(detach) ubuntu
+
+To run container and go inside that Container
+
+#docker run -it(interactive terminal) ubuntu /bin/bash (shell)
+
+How to exit container without stopping the container. Inside container use
+
+#ctrl+p+q
+
 To check running container
 
 #docker ps
