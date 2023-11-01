@@ -67,4 +67,7 @@ How to check process by Container
 
 #docker top contaner name or ID
 
+To check memory CPU of container
+
+#docker stats
 
