@@ -59,4 +59,12 @@ To Start Container
 How to check any details related to container 
 #docker inspect containername
 
+How to check Logs of Container
+
+#docker logs containername or id
+
+How to check memory utilized by Container
+
+#docker top contaner name or ID
+
 
