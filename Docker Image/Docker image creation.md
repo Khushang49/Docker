@@ -6,6 +6,7 @@ We require Docker Image to create container. There are three types to create Doc
 3. From Dockerfile
 
 **From Dockerhub**
+   
    Just pull any image or directly run container from Dockerhub.
    
    Command:
@@ -73,35 +74,6 @@ We require Docker Image to create container. There are three types to create Doc
   Always use capital letter to mention parameter in Dockerfile
 
   Dockerfile parameters:
-  
-  FROM == Image name or any refernce. It will be at start only.
-  
-  LABEL
-  
-  RUN == To run any command, To create a layer in Image
-  
-  CMD == Execute command while creation of Container.
-  
-  EXPOSE == Tp expose any port as per application or as per software requiremnt.
-  
-  ENV == To set any variable.
-  
-  ADD or COPY == To copy any files from server. In COPY you can copy any file from Server whereas ADD will also have same feature but it will also can download 
-                 from internet as well as it can extract TAR file from source machine. Beacuse sometime packages are zip files hence ADD will be useful.
-  
-  ENTRYPOINT == If you want to prioratize any command then you mention in Entrypoint it is same as CMD. But it has more priority.
-  
-  VOLUME
-  
-  USER
-  
-  WORKDIR == Where you want to work or whenever you run container then which directory is required.
-  
-  ONBUILD
-
-  MAINTAINER == Only to reference who is managing image as TAG.
-
-  ARG == Argument.
   
   | Dockerfile     | Instruction	Explanation      | 
   | ------------- | ------------- | 
