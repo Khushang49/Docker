@@ -56,4 +56,7 @@ To Start Container
 
 #docker start containername or ID
 
+How to check any details related to container 
+#docker inspect containername
+
 
