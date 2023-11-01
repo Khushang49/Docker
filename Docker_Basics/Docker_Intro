@@ -1,1 +1,24 @@
                                                                                        Docker basics
+
+To check Modules in Docker
+#docker --help
+Below are main modules
+Management Commands:
+  builder     Manage builds
+  buildx*     Docker Buildx (Docker Inc., v0.10.5)
+  compose*    Docker Compose (Docker Inc., v2.18.1)
+  container   Manage containers
+  context     Manage contexts
+  image       Manage images
+  manifest    Manage Docker image manifests and manifest lists
+  network     Manage networks
+  plugin      Manage plugins
+  system      Manage Docker
+  trust       Manage trust on Docker images
+  volume      Manage volumes
+
+TO List all Images in Docker
+#docker images
+
+To delete images in Docker
+#docker rmi imagename
