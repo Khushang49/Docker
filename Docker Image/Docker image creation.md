@@ -79,7 +79,7 @@ We require Docker Image to create container. There are three types to create Doc
   | ------------- | ------------- | 
   | FROM        | We use “FROM” to specify the base image we want to start from.|
   | RUN	       | RUN is used to run commands during the image build process.| 
-  | ENV		    | Sets environment variables within the image, making them accessible both during the build process and while the container is running. If you only need to   define             build-time variables, you should utilize the ARG instruction.|
+  | ENV		    | Sets environment variables within the image, making them accessible both during the build process and while the container is running. If you only need to   define             build-time variables, you should utilize the ARG instruction. Example ENV HTTP_PROXY="http://<ip-address>:<port>"|
   | COPY		        | The COPY command is used to copy a file or folder from the host system into the docker image.|
   | EXPOSE		        | Used to specify the port you want the docker image to listen to at runtime.| 
   | ADD			        | An advanced form of COPY instruction. You can copy files from the host system into the docker image. You can also use it to copy files from a URL into a destination in      the       docker image. In fact, you can use it to copy a tarball from the host system and automatically have it extracted into a destination in the docker image.|
