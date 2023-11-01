@@ -46,6 +46,14 @@ To remove container
 
 To remove all container
 
-#docker rm $(docker ps --filter status=exited -q)
+#docker rm $(docker ps --filter status=exited -q) or docker rm $(docker ps -aq) a== all q == quite
+
+To Stop Container
+
+#docker stop containername or ID
+
+To Start Container
+
+#docker start containername or ID
 
 
