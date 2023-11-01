@@ -63,7 +63,7 @@ How to check Logs of Container
 
 #docker logs containername or id
 
-How to check memory utilized by Container
+How to check process by Container
 
 #docker top contaner name or ID
 
