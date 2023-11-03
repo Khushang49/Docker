@@ -58,6 +58,17 @@ Difference betwwen create and Run
 
 **Create will only create container whereas run will create and run command or container.**
 
+If you done any changes on container then use DIFF
+
+#docker diff containername/id
+
+If you want to share any image or convert to tar the use export
+
+#docker export containername >imagename or docker export containername -o imagename
+
+After reciving this image you need to use then use IMPORT
+
+#docker import imagename or docker image import imagename
 
 
 
