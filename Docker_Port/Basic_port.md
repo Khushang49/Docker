@@ -50,6 +50,14 @@ To check port for container
 
 #docker port containername/id (for this you need to mention port while creating container)
 
+To create Container with Create 
+
+#docker create --name test1 ubuntu
+
+Difference betwwen create and Run
+
+**Create will only create container whereas run will create and run command or container.**
+
 
 
 
