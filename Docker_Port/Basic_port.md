@@ -37,3 +37,19 @@ To Wait any container. In this container will wait until any one will stop or go
 To Pause the container. To pause the processes in container
 
 #docker pause containername/id
+
+To Unpause the container
+
+#docker unpause containername
+
+To delete All Containers
+
+#docker container prune -f or docker system prune -f ( If system is using then it will delete all images,volume,container)
+
+To check port for container
+
+#docker port containername/id (for this you need to mention port while creating container)
+
+
+
+
