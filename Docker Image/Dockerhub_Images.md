@@ -28,6 +28,10 @@ To check hitsory of the image
 
 #docker image history imagename
 
+To get detailed information of image
+
+#docker inspect imagename
+
 To remove image
 
 #docker rmi imagename or docker image rm imagename (add -f to forefully delete)
