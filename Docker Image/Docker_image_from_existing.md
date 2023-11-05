@@ -23,3 +23,7 @@ Now create image
 
 #docker commit containername newimagename
 
+
+Craete Image and send it to other 
+
+
