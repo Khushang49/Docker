@@ -1,5 +1,5 @@
-In Docker file method you will create image from Scratch and will use some parameteres. **Whenever you add parameter it will create Layer in that image.
-**
+In Docker file method you will create image from Scratch and will use some parameteres. Whenever you add parameter it will create Layer in that image.
+
 Mentioning all parameters.
 
  | Dockerfile     | Instruction	Explanation      | 
