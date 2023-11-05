@@ -87,6 +87,26 @@ Mentioning all parameters.
   ![image](https://github.com/Khushang49/Docker/assets/95266353/b57058b8-151d-4237-8e1b-918837c92e96)
 
 
+  "WORKDIR" Parameter
+
+   This Parameter used to mention directory as working directory.
+
+   FROM ubuntu
+  
+   LABEL name=Khushang
+  
+   RUN apt-get update && apt install git -y
+
+   ENV NAME=KHUSHANG
+
+   ENV http_proxy=http://10.10.10.10:80 
+
+   WORKDIR /tmp
+   
+   ![image](https://github.com/Khushang49/Docker/assets/95266353/03894309-bcd1-4247-b1f7-c0bea0ceed0f)
+
+
+
   
 
 
