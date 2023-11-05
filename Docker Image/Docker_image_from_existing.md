@@ -26,4 +26,16 @@ Now create image
 
 Craete Image and send it to other 
 
+If you want to share any image or convert to tar the use export
+
+#docker export containername >imagename or docker export containername -o imagename
+
+![image](https://github.com/Khushang49/Docker/assets/95266353/c0393690-d746-4641-b12a-d2f6d40de9a2)
+
+
+After reciving this image you need to use then use IMPORT
+
+#docker import foldername imagename or docker image import foldername imagename
+
+![image](https://github.com/Khushang49/Docker/assets/95266353/40a82b89-574a-4431-ae4a-7957237e372f)
 
