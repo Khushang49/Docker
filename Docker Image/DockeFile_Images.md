@@ -79,7 +79,13 @@ Mentioning all parameters.
 
   ENV http_proxy=http://10.10.10.10:80 
   
-  ![image](https://github.com/Khushang49/Docker/assets/95266353/30c234cb-d571-423c-a336-75ac9e4f0da4)
+  ![image](https://github.com/Khushang49/Docker/assets/95266353/306282b1-2738-43b2-9670-2fbfc9c754b6)
+
+
+  For Checking create new container and do env
+
+  ![image](https://github.com/Khushang49/Docker/assets/95266353/b57058b8-151d-4237-8e1b-918837c92e96)
+
 
   
 
