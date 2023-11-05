@@ -39,3 +39,14 @@ After reciving this image you need to use then use IMPORT
 
 ![image](https://github.com/Khushang49/Docker/assets/95266353/40a82b89-574a-4431-ae4a-7957237e372f)
 
+Same way you can use docker save and load. To convert into Tar file
+
+#docker image save imagename >filename.tar
+
+To load this image use 
+
+#docker load image -i filename
+
+
+
+
