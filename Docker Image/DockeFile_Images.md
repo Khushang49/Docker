@@ -57,6 +57,13 @@ Mentioning all parameters.
 
   ![image](https://github.com/Khushang49/Docker/assets/95266353/003a4af3-ecf9-412b-b634-cc433218c2b9)
 
+  How to Check Labels used in Dockerfile.
+
+  #docker inspect imagename/id
+
+  ![image](https://github.com/Khushang49/Docker/assets/95266353/338df667-85d4-4fca-b189-6f4657cc1338)
+
+
   
 
   
