@@ -40,7 +40,7 @@ Mentioning all parameters.
 
  ![image](https://github.com/Khushang49/Docker/assets/95266353/913e7f0d-2729-49c8-ae47-98cdb8ea80d9)
 
-  Now just create Container and check whether GIT is there or not.
+  Now just create Container and check whether GIT is there or not. You can use multiple RUN command in single Dockerfile.
   
 
   
