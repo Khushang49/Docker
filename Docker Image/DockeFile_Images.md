@@ -1,5 +1,5 @@
-In Docker file method you will create image from Scratch and will use some parameteres.
-
+In Docker file method you will create image from Scratch and will use some parameteres. **Whenever you add parameter it will create Layer in that image.
+**
 Mentioning all parameters.
 
  | Dockerfile     | Instruction	Explanation      | 
@@ -19,3 +19,29 @@ Mentioning all parameters.
   |ENTRYPOINT|	Specifies the commands that will execute when the Docker container starts. If you don’t specify any ENTRYPOINT, it defaults to “/bin/sh -c”.|
   |ONBUILD| |
   |MAINTAINER| It is like Tag which we giving to understand|
+
+  Create Dockerfile
+
+  #vi Dockerfile
+
+  Now mention the above parameters. Always mention FROm at start as we have to mention the images or base os.
+
+  From Prameter
+  
+  FROM ubuntu
+  ![image](https://github.com/Khushang49/Docker/assets/95266353/602fce65-01f0-4cdb-bcf7-bba0e495ea30)
+
+  If we want to install any software while creation of Image.Here we have installed Git software.
+
+  Run Parameter
+
+  FROM ubuntu
+  RUN apt-get update && apt install git -y
+
+ ![image](https://github.com/Khushang49/Docker/assets/95266353/913e7f0d-2729-49c8-ae47-98cdb8ea80d9)
+
+  Now just create Container and check whether GIT is there or not.
+  
+
+  
+
