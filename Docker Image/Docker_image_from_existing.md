@@ -22,3 +22,4 @@ First check modification
 Now create image 
 
 #docker commit containername newimagename
+
