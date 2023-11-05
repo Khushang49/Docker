@@ -31,6 +31,7 @@ Mentioning all parameters.
   **"From" Prameter**
   
   FROM ubuntu
+  
   ![image](https://github.com/Khushang49/Docker/assets/95266353/602fce65-01f0-4cdb-bcf7-bba0e495ea30)
 
   If we want to install any software while creation of Image.Here we have installed Git software.
