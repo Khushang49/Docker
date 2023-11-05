@@ -45,7 +45,7 @@ Mentioning all parameters.
 
   Now just create Container and check whether GIT is there or not. You can use multiple RUN command in single Dockerfile.
 
-  "LABEL" Parameter
+  **"LABEL" Parameter**
 
   It is just type of tag which we provide to image. Just mention LABEL and any details.
 
@@ -62,6 +62,25 @@ Mentioning all parameters.
   #docker inspect imagename/id
 
   ![image](https://github.com/Khushang49/Docker/assets/95266353/338df667-85d4-4fca-b189-6f4657cc1338)
+
+
+  **"ENV" parameter**
+
+  This is to pass any enviroment inside the container such as Proxy variable or any variable.
+  
+  FROM ubuntu
+  
+  LABEL name=Khushang
+  
+  RUN apt-get update && apt install git -y
+
+  ENV NAME=KHUSHANG
+
+  ENV http_proxy=http://10.10.10.10:80 
+  
+  ![image](https://github.com/Khushang49/Docker/assets/95266353/30c234cb-d571-423c-a336-75ac9e4f0da4)
+
+  
 
 
   
