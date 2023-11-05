@@ -22,3 +22,12 @@ Now push the image to dockerhub
 Now Pull image from dockerhub
 
 #docker pull imagename
+
+
+To check hitsory of the image
+
+#docker image history imagename
+
+To remove image
+
+#docker rmi imagename or docker image rm imagename (add -f to forefully delete)
