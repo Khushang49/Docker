@@ -2,7 +2,7 @@
 
 We use USER parameter if you want to run any command as user. If we login then it will login via that user.
 
-Example:
+**Example:**
 
 FROM ubuntu
 
@@ -34,7 +34,7 @@ If you want to copy any file from you host machine to your Container then we wil
 
 COPY HOSTFILE DOCKERFILEPATH
 
-Example:
+**Example:**
 
 FROM ubuntu
 
@@ -63,5 +63,33 @@ COPY Dockerfile /tmp/test
 Now create Container and test whether file is copied or not.
 
 ![image](https://github.com/Khushang49/Docker/assets/95266353/1e896f43-3105-4dca-a007-62bc20c05f1b)
+
+**"ADD" Parameter**
+
+Mainly ADD we use to copy any zip file or any URL file as mentioning the URL as Source. Because ADD will have same feature as copy but it will copy from URL as well as ZIP files.
+
+**Example:**
+
+FROM ubuntu
+
+LABEL name=testdockerfile
+
+ENV NAME=Khushang
+
+RUN useradd -d /home/$NAME -p admin@1234567 $NAME
+
+WORKDIR /tmp
+
+USER $NAME
+
+RUN whoami>/tmp/test2.txt
+
+RUN mkdir -p /tmp/test
+
+COPY Dockerfile /tmp/test
+
+ADD https://www.java4coding.com/deploy.tar.gz /sources/ /tmp/test
+
+
 
 
