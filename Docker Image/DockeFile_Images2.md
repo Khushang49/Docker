@@ -90,6 +90,39 @@ COPY Dockerfile /tmp/test
 
 ADD https://www.java4coding.com/deploy.tar.gz /sources/ /tmp/test
 
+**"CMD" Parameter**
 
+CMD is used when we want to run any command after creation of Container.
+
+**You can only use ONE CMD in Dockefile.**
+
+**Example:**
+
+FROM ubuntu
+
+LABEL name=testdockerfile
+
+ENV NAME=Khushang
+
+RUN useradd -d /home/$NAME -p admin@1234567 $NAME
+
+WORKDIR /tmp
+
+USER $NAME
+
+RUN whoami>/tmp/test2.txt
+
+RUN mkdir -p /tmp/test
+
+COPY Dockerfile /tmp/test
+
+CMD ["echo","Hello World"]
+
+![image](https://github.com/Khushang49/Docker/assets/95266353/d2498f66-2106-422d-86ac-157f9c48e25f)
+
+
+Craete Container 
+
+![image](https://github.com/Khushang49/Docker/assets/95266353/423af15b-235b-4d61-a9d7-fcba70cb55be)
 
 
