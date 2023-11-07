@@ -126,3 +126,69 @@ Craete Container
 ![image](https://github.com/Khushang49/Docker/assets/95266353/423af15b-235b-4d61-a9d7-fcba70cb55be)
 
 
+**"EXPOSE" parameter**
+
+Expose is use to expose port at application level of dockerfile. If you are not mentioning any port then just mention -P.
+
+#docker run -it -P --name containername imagename (it will map any port to container)
+
+**Example:**
+
+FROM ubuntu
+
+LABEL name=testdockerfile
+
+ENV NAME=Khushang
+
+RUN useradd -d /home/$NAME -p admin@1234567 $NAME
+
+WORKDIR /tmp
+
+USER $NAME
+
+RUN whoami>/tmp/test2.txt
+
+RUN mkdir -p /tmp/test
+
+COPY Dockerfile /tmp/test
+
+CMD ["echo","Hello World"]
+
+EXPOSE 22
+
+Now just try to login with command.
+
+#ssh user@ip -p port (port will be used which is expose at host)
+
+
+"ENTRYPOINT" Parameter
+
+Entrypoint is same as CMD but it will have high priority.
+
+**Example:**
+
+FROM ubuntu
+
+LABEL name=testdockerfile
+
+ENV NAME=Khushang
+
+RUN useradd -d /home/$NAME -p admin@1234567 $NAME
+
+WORKDIR /tmp
+
+USER $NAME
+
+RUN whoami>/tmp/test2.txt
+
+RUN mkdir -p /tmp/test
+
+COPY Dockerfile /tmp/test
+
+CMD ["echo","Hello World"]
+
+EXPOSE 22
+
+ENTRYPOINT ["echo","Hello Khushang"]
+
+![image](https://github.com/Khushang49/Docker/assets/95266353/5a201fb5-6fe4-4b64-8c17-ce92c4d351de)
