@@ -26,7 +26,7 @@ Docker Volume will be managed by Docker. Bind volume will be managed by end user
 
 **DOCKER VOLUME:**
 
-To test this create container of mysql and create database in it.
+To test this create container of mysql and create database in it. Whenever you create docker volume it is stored in **/var/lib/docker/volumes**.
 
 #docker run -d --name mysql -e MYSQL_ROOT_PASSWORD=123456 mysql
 
@@ -39,5 +39,5 @@ now create database.
 
 Now exit from container and check for volume. But if you create new container then it will not pick thos values. If you want to use same volume then you have to mention the volume while creating the container.
 
-#docker run -d -v volumeid --name mysql2 mysql
+#docker run -d -v **volumeid:mentionthevolumepath** --name mysql2 mysql
 
