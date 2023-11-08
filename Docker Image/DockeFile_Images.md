@@ -86,6 +86,10 @@ Mentioning all parameters.
 
   ![image](https://github.com/Khushang49/Docker/assets/95266353/b57058b8-151d-4237-8e1b-918837c92e96)
 
+  Or You can mention env variablr while running
+
+  #docker run -e name=khushang --name test 
+
 
   **"WORKDIR" Parameter**
 
