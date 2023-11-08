@@ -23,3 +23,21 @@ How to chek wheteher Volume is used or not in image. Just inspect and check for 
 Difference between Docker Volume and Bind Volume.
 
 Docker Volume will be managed by Docker. Bind volume will be managed by end user as we are addind our directories to container.
+
+**DOCKER VOLUME:**
+
+To test this create container of mysql and create database in it.
+
+#docker run -d --name mysql -e MYSQL_ROOT_PASSWORD=123456 mysql
+
+Now logn into container
+
+#docker exec -it mysql bash
+
+now create database.
+![image](https://github.com/Khushang49/Docker/assets/95266353/dd5bb9e3-8d81-4095-a8d6-769ab1258869)
+
+Now exit from container and check for volume. But if you create new container then it will not pick thos values. If you want to use same volume then you have to mention the volume while creating the container.
+
+#docker run -d -v volumeid --name mysql2 mysql
+
