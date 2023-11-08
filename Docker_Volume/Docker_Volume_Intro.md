@@ -41,3 +41,4 @@ Now exit from container and check for volume. But if you create new container th
 
 #docker run -d -v **volumeid:mentionthevolumepath** --name mysql2 mysql
 
+![image](https://github.com/Khushang49/Docker/assets/95266353/b79c9c87-24ae-469d-817b-3915d4975ab8)
