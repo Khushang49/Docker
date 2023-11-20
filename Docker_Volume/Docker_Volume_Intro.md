@@ -37,7 +37,7 @@ Now logn into container
 now create database.
 ![image](https://github.com/Khushang49/Docker/assets/95266353/dd5bb9e3-8d81-4095-a8d6-769ab1258869)
 
-Now exit from container and check for volume. But if you create new container then it will not pick thos values. If you want to use same volume then you have to mention the volume while creating the container.
+Now exit from container and check for volume. But if you create new container then it will not pick thos values. If you want to use same volume then you have to mention the volume while creating the container. **Also you have stop or remove that container to use volume**.
 
 #docker run -d -v **volumeid:mentionthevolumepath** --name mysql2 mysql
 
