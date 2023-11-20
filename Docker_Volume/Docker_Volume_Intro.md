@@ -41,6 +41,8 @@ Now exit from container and check for volume. But if you create new container th
 
 #docker run -d -v **volumeid:mentionthevolumepath** --name mysql2 mysql
 
+#docker run -d --name volume2 -v 71d859e32d27e1c4f70ec56bb6c22c64c550e84ffca11bf1580706533bbf4278:/var/lib/mysql/ -e MYSQL_ROOT_PASSWORD=123456 mysql
+
 ![image](https://github.com/Khushang49/Docker/assets/95266353/6977f94f-baf3-4b09-a54e-e7124324d545)
 
 ![image](https://github.com/Khushang49/Docker/assets/95266353/a367f0bd-2558-41d9-ba3d-2166688d5328)
