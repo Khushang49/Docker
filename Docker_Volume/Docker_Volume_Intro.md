@@ -47,4 +47,12 @@ Now exit from container and check for volume. But if you create new container th
 
 ![image](https://github.com/Khushang49/Docker/assets/95266353/a367f0bd-2558-41d9-ba3d-2166688d5328)
 
+To remove volume
+
+**#docker volume rm volumename/id**
+
+To remove all volumes 
+
+#docker volume prune -y
+
 
