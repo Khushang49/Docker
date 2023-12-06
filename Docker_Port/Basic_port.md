@@ -68,7 +68,7 @@ If you want to share any image or convert to tar the use export
 
 After reciving this image you need to use then use IMPORT
 
-#docker import foldername imagename or docker image import foldername imagename
+#docker import foldername/filename imagename or docker image import foldername imagename
 
 
 
